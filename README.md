@@ -5,7 +5,7 @@ Each time you visit the app,
 it logs your hit in Redis, then displays the total number of page loads.
 
 Use npm to install the app’s dependencies:
-#   npm install express redis
+#  npm install express redis
 
 Create DockerFile
 docker-compose.yml
@@ -19,17 +19,17 @@ docker run,---->    you should add the -d argument to detach your terminal and r
 docker compose up   ----> run ---> docker-compose.yml
 docker run  ---->  -d
 
-
+# docker-compose up --build
 What is Redis?
 -Redis stands for Remote Dictionary Server.
 -It’s an open-source, in-memory data store that can be used as a:
 
-Database
-Cache
-Message broker
-#  It’s super fast because all the data is stored in memory (RAM),
-# rather than on disk. Redis is often used in web applications to store frequently accessed data,
-# like session data, counters, or user preferences, because it can retrieve and store data almost instantly.
+- Database
+- Cache
+- Message broker
+- It’s super fast because all the data is stored in memory (RAM),
+- rather than on disk. Redis is often used in web applications to store frequently accessed data,
+- like session data, counters, or user preferences, because it can retrieve and store data almost instantly.
 
 Where Redis is Used
 -Web applications (Node.js, Django, Flask)
